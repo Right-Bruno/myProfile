@@ -3,3 +3,48 @@
     margin: 0;
     padding: 0;
 }
+
+/* Links Section of the Header */
+.header {
+    background-color: #1f2937;
+    padding: 20px 100px 100px;
+}
+
+.logo-title {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+li, p, button {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+/* Info Section in the Header */
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+button {
+    padding: 5px 30px;
+    border-radius: 7px;
+    background-color: #3882f6;
+    border: 0px;
+}
+
+img {
+    display: block;
+    border: #9095a1;
+    background-color: #9095a1;
+}
+
+img::before {
+    /* Add a Custom Image PlaceHolder */
+    content: attr(alt);
+    background-color: #9095a1;
+    color: #e5e7eb;
+    height: 250px;
+}
