@@ -7,7 +7,23 @@
 /* Links Section of the Header */
 .header {
     background-color: #1f2937;
-    padding: 20px 100px 100px;
+    padding: 20px 150px 100px;
+}
+
+.links {
+    margin-bottom: 70px;
+    /* Align Header Links to the Top */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+    /* Align Links Horizontally */
+    display: flex;
+    align-items: center;
+    gap: 30px;
 }
 
 .logo-title {
@@ -22,6 +38,18 @@ li, p, button {
 }
 
 /* Info Section in the Header */
+.infoSection {
+    /* Align Section Horizontally */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.infos {
+    width: 42%;
+    flex: 0 0 auto;
+}
+
 h1 {
     font-size: 48px;
     font-weight: 900;
@@ -29,6 +57,7 @@ h1 {
 }
 
 button {
+    margin-top: 10px;
     padding: 5px 30px;
     border-radius: 7px;
     background-color: #3882f6;
@@ -39,6 +68,10 @@ img {
     display: block;
     border: #9095a1;
     background-color: #9095a1;
+    max-width: 55%;
+    min-width: 45%;
+    min-height: 250px;
+    flex: 1 0 auto;
 }
 
 img::before {
@@ -46,5 +79,10 @@ img::before {
     content: attr(alt);
     background-color: #9095a1;
     color: #e5e7eb;
-    height: 250px;
+    height: 100%;
+
+    /* Center the Image Placeholder Text */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
