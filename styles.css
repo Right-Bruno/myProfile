@@ -32,9 +32,13 @@ ul {
     font-weight: 900;
 }
 
-li, p, button {
+li, p, button, a {
     font-size: 18px;
     color: #e5e7eb;
+}
+
+a {
+    text-decoration: none;
 }
 
 /* Info Section in the Header */
