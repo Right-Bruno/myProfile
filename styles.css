@@ -148,3 +148,25 @@ h2 {
     text-align: right;
     width: 66%;
 }
+
+/* Call To Action Section */
+.CTAsection {
+    box-sizing: border-box;
+    margin: 100px auto;
+    width: 78%;
+    padding: 50px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.CTAsection .title {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.CTAsection .signup {
+    border: 2px solid whitesmoke;
+}
