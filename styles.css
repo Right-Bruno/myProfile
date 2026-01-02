@@ -170,3 +170,12 @@ h2 {
 .CTAsection .signup {
     border: 2px solid whitesmoke;
 }
+
+/*Footer Section */
+.footer {
+    background-color: #1f2937;
+    padding: 40px 0px;
+    text-align: center;
+    color: whitesmoke;
+    font-size: large;
+}
