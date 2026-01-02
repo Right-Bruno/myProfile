@@ -1,4 +1,4 @@
-## My Profile Website
+# My Profile Website
 
 ## Introduction
 This Web Project follows the template whose Image Has been shown in the Images under the refImages folder. The Idea was provided in the Odin's Project Course, As I was navigating through the Course. In short, it is one of the project included in Odin's Project Course.
